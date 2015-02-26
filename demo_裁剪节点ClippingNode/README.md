@@ -1,4 +1,4 @@
-# cocos2dx[3.2](19)——裁剪节点ClippingNode
+# cocos2dx\[3.2\](19)——裁剪节点ClippingNode
 
 ## 开发环境
 	cocos2d-x 3.2 版本，

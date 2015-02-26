@@ -1,4 +1,4 @@
-# cocos2dx[3.4](26)——视差节点ParallaxNode
+# cocos2dx\[3.4\](26)——视差节点ParallaxNode
 
 ## 开发环境
 	cocos2d-x 3.4 版本，
