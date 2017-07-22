@@ -32,7 +32,9 @@ public class ClientThread extends Thread {
 				for (Socket socket : clients) {
 					// 获取客户端发来的数据
 					InputStream is = socket.getInputStream();
-					int len = is.available() + 1;
+					//int len = is.available() + 1;
+                    int len = is.available();
+                    //jre 1.8 环境下结尾会多出一位空白字符。
 					byte[] buff = new byte[len];
 					int flag = is.read(buff);
 
